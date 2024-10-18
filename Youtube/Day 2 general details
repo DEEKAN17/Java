@@ -1,0 +1,28 @@
+/*  Escape sequcences  */
+
+public class first {
+    public static void main(String[] args) 
+    {
+        // escpe sequences
+        
+        System.out.println("\"Hellow world\"");
+        
+        int octal=010;//octal
+        System.out.println(octal);
+        
+        // Direct Hexa decimal value
+        int Hex_decimal=0XA;// Hex decimal
+        System.out.println(Hex_decimal);
+        
+        long lng=7l;//long
+        System.out.println(lng);
+        
+        // Direct boolean value(Ob key word)
+        int bool=0b00111;//boolean
+        System.out.println(bool);
+        
+        int n=12_34_56_78_90;
+        System.out.println(n);
+        
+    }
+}
